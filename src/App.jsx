@@ -10,7 +10,8 @@ import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 function App() {
   return (
-    <div>App
+  
+    <main>
     <NavBar/>
     <Header/>
     <About/>
@@ -20,8 +21,8 @@ function App() {
     <FAQS/>
     <Contact/>
     <Footer/> 
+    </main>
 
-</div>
   )
 }
 
