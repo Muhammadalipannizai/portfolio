@@ -50,7 +50,7 @@ body {
 }
 
 section {
-    padding: 6rem 0;
+    padding: 9rem 0;
     background: var(--color-light);
     transition: var(--transition);
 }
