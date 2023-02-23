@@ -29,6 +29,7 @@ header{
     text-align: center;
     margin: 1rem 0.2rem;
     font-family: 'Montserrat', sans-serif;
+   
 }
 
 .head_button{
@@ -64,7 +65,9 @@ header{
         margin-top: 0;
         height: 100vh;
     }
-    
+    .head_container p{
+        width: 70%;
+    }
   
 }
 @media screen and (max-width: 600px) {
