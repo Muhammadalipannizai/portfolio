@@ -8,4 +8,5 @@ const data = [
     { id : '1' , icon : <TbBooks/> ,   title : 'Projects' , desc : ' 2years of experience'  },
     { id : '1' , icon :<BiHappyHeartEyes/> ,   title : 'Clients' , desc : ' 2years of experience'  }
 ]
+
 export default data;

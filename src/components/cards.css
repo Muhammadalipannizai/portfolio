@@ -11,10 +11,10 @@
     transform: translateX(0.5rem);
     
 }
-.card .light {
+.card.light {
     background: var(--color-light);
 }
-.card .light:hover {
+.card.light:hover {
         background : transparent;
         border-color: var(--color-light);
 }
