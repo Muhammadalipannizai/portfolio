@@ -1,0 +1,86 @@
+.education_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 4rem;
+    margin-bottom: 4rem;
+}
+.education{
+    display: flex;  
+    align-items: flex-start ;
+    gap: 1rem;
+    margin-top: 4rem;
+}
+.edu_icon{
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.6rem;
+    border-radius: var(--border-radius-3);
+    font-size: 1.3rem;
+    display: flex;
+    transition: var(--transition);
+  }
+
+  .education:hover .edu_icon{
+    background: var(--color-white);
+    color: var(--color-primary);
+  }
+  @media screen and (max-width : 1024px) {
+    .education_container{
+        gap: 1rem 2rem;
+    }  
+  }
+  @media screen and (max-width : 600px) {
+    .education_container{
+        grid-template-columns: 1fr;
+        gap:0.5rem;
+    }  
+    .education{
+        gap: 1.8rem;
+        height: 10rem;
+    }
+  }
+  .certification_container {
+    /* background-color: red; */
+    display: grid;
+    padding: 5rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+   
+  }
+
+.certificate{
+    padding-top: 1rem;
+    display: grid;
+    text-align: center;
+    margin-bottom: 0;
+   
+}
+.certificate h4{ 
+  margin-top: 2rem;
+} 
+.certificate a{ 
+  margin-top: 4rem;
+position: relative;
+left: 38rem;
+}
+
+
+.certificate a:hover{
+    color: var(--color-primary)
+}
+@media screen and (max-width : 1024px) {
+  .certificate a{ 
+   margin-top: 4rem;
+  position: relative;
+  left: 20rem;
+  }
+}
+@media screen and (max-width : 600px) {
+  .certificate a{ 
+   margin-top: 4rem;
+  position: relative;
+  left: 7rem;
+  }
+ 
+}
