@@ -19,7 +19,6 @@ function App() {
     <Portfolio/>
     <Testimonials/>
     <Education/>
-    
     <Contact/>
     <Footer/> 
     </main>
