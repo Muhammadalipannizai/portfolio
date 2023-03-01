@@ -6,7 +6,6 @@ import Services from './sections/services/Services';
 import Portfolio from './sections/portfolio/Portfolio';
 import Testimonials from './sections/testimonials/Testimonials';
 import Education from './sections/education/Education';
-import FAQS from './sections/faqs/FAQS';
 import Contact from './sections/contact/Contact';
 import Footer from './sections/footer/Footer';
 function App() {
@@ -20,7 +19,7 @@ function App() {
     <Portfolio/>
     <Testimonials/>
     <Education/>
-    <FAQS/>
+    
     <Contact/>
     <Footer/> 
     </main>
