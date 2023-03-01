@@ -1,3 +1,4 @@
+
 footer{
     background: var(--color-primary);
     padding: 4rem;
@@ -11,7 +12,8 @@ footer .socials{
     width: fit-content;
     display: flex;
     gap: 1.5rem;
-    margin: 3rem auto 4rem;
+    margin: 3rem auto 0rem;
+
 }
 footer .socials a{
    
