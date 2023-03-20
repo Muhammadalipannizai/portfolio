@@ -1,7 +1,7 @@
 
 footer{
     background: var(--color-primary);
-    padding: 4rem;
+    padding: 1rem;
     box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 50%);
     transition: var(--transition);
 }
@@ -12,7 +12,7 @@ footer .socials{
     width: fit-content;
     display: flex;
     gap: 1.5rem;
-    margin: 3rem auto 0rem;
+    margin: 1rem auto 0rem;
 
 }
 footer .socials a{

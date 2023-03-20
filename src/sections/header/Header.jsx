@@ -16,7 +16,7 @@ function Header() {
                       role of Developer. Professional strengths include creative problem-solving, 
                       written and verbal communication, and time management.</p>
               <div className='head_button'>
-                <a href='#contact' className='btn primary'> Let's talk</a>
+                <a href='#contact' className='btn black'> Let's talk</a>
                 <a href='#portfolio' className='btn light'> My work</a>
               </div>
               <div className='head_social'>

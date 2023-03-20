@@ -22,7 +22,7 @@ setProject(filterCatAll);
    
     <section id='portfolio'>
      <h2>Portfolio</h2>
-     <p> Check out some of the recent projects I recently worked on.</p>
+     <p> Check out some of the projects I recently worked on.</p>
       <div className='container portfolio_container'>
       <Categories all_categories = {categoryUnique } filterProject ={filterProjects}/>
       <div className='project_Card'>

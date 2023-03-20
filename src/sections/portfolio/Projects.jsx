@@ -9,7 +9,7 @@ function Projects(props) {
         <h4> {props.project_main.title}</h4>
         <p>{props.project_main.desc}</p>
         <div className="project_buttons">
-            <a href={props.project_main.demo} className='btn sm ' target='blank' rel ='noopner noreferrer'>Demo</a>
+            {/* <a href={props.project_main.demo} className='btn sm ' target='blank' rel ='noopner noreferrer'>Demo</a> */}
             <a href={props.project_main.github}  className='btn sm primary' target='blank' rel ='noopner noreferrer'>Github</a>
         </div>
       </Cards>

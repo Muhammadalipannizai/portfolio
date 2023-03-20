@@ -8,6 +8,9 @@
    align-items: flex-start ;
    gap: 1rem;
   }
+  h2{
+    margin-bottom: 3rem;
+  }
   .services_icon{
     background: var(--color-primary);
     color: var(--color-white);

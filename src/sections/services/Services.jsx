@@ -6,8 +6,8 @@ function Services() {
   return (
     
       <section id='services'>
-      <h2>My Services</h2>
-      <p> I give you best services below</p>
+      <h2>Technical Skills</h2>
+   
       <div className=' container services_container'>
           { data.map( (items) => (
             <Cards key = {items.id} className = ' services light'>

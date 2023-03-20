@@ -145,6 +145,17 @@ img{
     border-color: var(--color-primary);
     color: var(--color-primary);
 }
+.btn.black {
+    background: var(--color-black);
+    /* text color always white that's why i didn't use a variable color */
+    color: white;
+}
+
+.btn.black:hover {
+    background: transparent;
+    border-color: var(--color-black);
+    color: var(--color-primary);
+}
 
 .btn.sm {
     padding: 0.5rem 1.2rem;
