@@ -1,4 +1,132 @@
-header{
+#header{
+    margin: 4rem auto 0rem;
+    padding: 3rem;
+    display: grid;
+    place-items: center;
+    height: calc(100vh - 5rem);
+    background: var(--color-white);
+    transition: var(--transition);
+    background-image: url('../../assets/back.webp');    
+}
+
+.head_container{
+  
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    padding: 3rem;
+}
+.Mydetail
+{ 
+  display: grid;
+  /* background-color: red; */
+  padding: 3rem;
+}
+.myphoto{
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    left: 55rem;
+    border-radius: 50%;
+     border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 2rem;
+  
+}
+.Mydetail h4{
+    margin: 1.5rem 0rem;
+}
+.Mydetail p{
+    width: 60%;
+    margin: 0.5rem 0rem;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.head_button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.head_social{
+    position: relative;
+    top: 1rem;
+    left: 3rem;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.head_social a{
+    width: 2rem;
+    height: 2rem;
+    background: var(--color-light);
+    color: var(--color-black);
+    display: grid;
+    place-items: center;
+    border-radius: var(--border-radius-3);
+   
+}
+.head_social a:hover{
+        background: var(--color-primary);
+        color: var(--color-white);
+        transform: translateX(-0.5rem);
+}
+
+@media screen and (max-width: 1024px) {
+    header{
+        margin-top: 0;
+        height: 100vh;
+    }
+    .head_container p{
+        width: 70%;
+    }
+    .head_social{
+        margin-bottom: 2rem;
+    }
+    .myphoto{
+        left: 40rem;
+    }
+  
+}
+@media screen and (max-width: 600px) {
+   
+    .myphoto{
+        height: 10rem;
+        width: 10rem;
+        position: absolute;
+        left: 6rem;
+        bottom: 28rem;
+    }
+    .head_container 
+    {
+        padding: 0;
+    }
+    .Mydetail{
+        padding: 0;
+        margin-top: 3rem;
+    }
+    .head_container p{
+        width: 100%;
+    }
+    .head_button{
+        gap: 1rem;
+    }
+    .head_social{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+/* header{
 
     margin-top: 5rem ;
     display: grid;
@@ -93,4 +221,4 @@ header{
         display: none;
     }
   
-}
+} */

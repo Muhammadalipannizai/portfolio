@@ -33,6 +33,7 @@
     --transition: all 500ms ease;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -146,7 +147,7 @@ img{
     color: var(--color-primary);
 }
 .btn.black {
-    background: var(--color-black);
+    background: #8EA7E9;
     /* text color always white that's why i didn't use a variable color */
     color: white;
 }

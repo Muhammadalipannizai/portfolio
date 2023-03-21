@@ -13,7 +13,6 @@ function App() {
   
     <main>
     <NavBar/>
-    
     <Header/>
     <About/>
     <Services/>
