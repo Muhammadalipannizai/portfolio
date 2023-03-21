@@ -23,7 +23,7 @@
 }
 .icon_about{
     font-size: 1.5rem;
-    color: var(--color-black);
+    color: var(--main-hover-color);
     border-radius: var(--border-radius-3);
     width: fit-content;
     margin-inline: auto;
@@ -36,7 +36,7 @@
     margin: 1rem 0;
 }
 .card_component:hover .icon_about{
-    background: var(--color-primary);
+    background: var(--main-hover-color);
     color: var(--color-white);
 }
 .about_right p {

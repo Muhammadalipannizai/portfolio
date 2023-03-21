@@ -56,12 +56,12 @@
     gap: 1rem;
 }
 .project_cards:hover .btn.sm{
-    border-color: var(--color-primary);
+    border-color: var(--main-hover-color);
 
 }
 .project_cards:hover .btn.sm.primary{
     background: transparent;
-    color: var(--color-primary);
+    color: var(--main-hover-color);
     border-color: var(--color-primary);
 }
 

@@ -19,6 +19,7 @@
     --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
     --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
     --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+    --main-hover-color : #3795BD;
 
     /* GENERAL CONTAINER VARIABLES */
     --container-width-lg: 76%;
@@ -147,7 +148,7 @@ img{
     color: var(--color-primary);
 }
 .btn.black {
-    background: #8EA7E9;
+    background: var(--main-hover-color);
     /* text color always white that's why i didn't use a variable color */
     color: white;
 }

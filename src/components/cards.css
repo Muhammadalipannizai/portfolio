@@ -7,7 +7,7 @@
 }
 .card:hover{
     background: transparent;
-    border-color: var(--color-primary );
+    border-color: var(--main-hover-color );
     transform: translateX(0.5rem);
     
 }

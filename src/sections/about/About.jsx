@@ -35,7 +35,7 @@ function About() {
            Professional strengths include creative problem-solving, written and verbal communication, 
            and time management.
           </p>
-          <a href={CV} download  className='btn primary' > <FileDownloadIcon/>Download CV</a>  
+          <a href={CV} download  className='btn black' > <FileDownloadIcon/>Download CV</a>  
 
         </div>
       </div>

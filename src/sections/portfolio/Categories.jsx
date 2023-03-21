@@ -15,7 +15,7 @@ const clickButton = (activeCat) =>{
           <ButtonCategory
             key={index}
             category = {category}
-            className ={`btn cat_btn ${activeButton === category ? 'primary' : 'white'}`}
+            className ={`btn cat_btn ${activeButton === category ? 'black' : 'white'}`}
             clickHandle = {()=> clickButton(category)}
           />
         ))
