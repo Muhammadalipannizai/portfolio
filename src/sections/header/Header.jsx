@@ -10,7 +10,7 @@ function Header() {
               <div className='Mydetail'> 
                   <h1> Muhammad Ali</h1>
                    <h4> Front-end Developer</h4>
-                 <p> Experienced coding bootcamp graduate with background in various coding Experienced coding bootcamp graduate with background in various coding 
+                 <p> Hi, I am Ali. A passionate Front-end React Developer based in Oslo, Norway.
                            </p>
                   <div className='head_button'>
                      <a href='#contact' className='btn black'> Let's talk</a>
