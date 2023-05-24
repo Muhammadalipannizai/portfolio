@@ -27,7 +27,7 @@ import './contact.css';
       <input type="email" name="user_email"  placeholder='email'/>
       <label><h5>Message</h5></label>
       <textarea name="message" />
-      <button type="submit" value="Send" className='btn primary' >Send</button>
+      <button type="submit" value="Send" className='btn black' >Send</button>
     </form>
     </div>
     </section>

@@ -1,6 +1,6 @@
 
 footer{
-    background: var(--color-primary);
+    background: var(--main-hover-color);
     padding: 1rem;
     box-shadow: 0 1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 50%);
     transition: var(--transition);

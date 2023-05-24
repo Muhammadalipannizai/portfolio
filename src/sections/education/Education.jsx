@@ -24,7 +24,7 @@ function Education() {
     <h3> Courses & Certifications</h3>
         <div  className='certificate'>
             <h4> The Complete 2023 Web Development Bootcamp</h4>
-            <a href='https://www.udemy.com/certificate/UC-c2b9a204-1367-4fb9-b748-9a42c5c92992/' className='btn primary'> Udemy Certificate </a>
+            <a href='https://www.udemy.com/certificate/UC-c2b9a204-1367-4fb9-b748-9a42c5c92992/' className='btn black'> Udemy Certificate </a>
      
         </div>
     </div>
