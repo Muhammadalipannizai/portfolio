@@ -8,6 +8,9 @@ function NavBar() {
   return (
     <nav>
       <div className="container nav_container">
+      <div className="left"> <h3> Ali</h3>
+      </div>
+      <div className="right">
         <ul className="nav_menu">
           {data.map((item) => (
             <li key={item.id}>
@@ -21,6 +24,9 @@ function NavBar() {
             </li>
           ))}
         </ul>
+
+      </div>
+     
       </div>
     </nav>
   );

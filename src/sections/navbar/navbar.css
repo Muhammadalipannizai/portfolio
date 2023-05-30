@@ -12,10 +12,27 @@ nav{
     box-shadow: 0 1rem 1.5 hsla (var(--primary-hue), 68% , 42% , 20%);
     transition: var(--transition);
 }
+
 .nav_container{
     display: flex;
     align-items: center;
     justify-content: space-between; 
+}
+.left{
+   
+    position: absolute;
+    left: 4rem;
+    right: 90rem;
+    display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.left h3{
+font-size: 3rem;
+margin-top: 0.5rem;
+font-family: cursive;
+float: left;
+
 }
 .nav_logo{
     width: 3rem;
@@ -26,6 +43,8 @@ nav{
 .nav_menu{
     display: flex;
     gap: 3.5rem;
+    margin-left: 8rem;
+   
 }
 .nav_menu a:hover{
     color: var(--main-hover-color);
@@ -44,6 +63,9 @@ nav{
 
 @media screen and (max-width :1024px) {
     .nav_menu{
+        display: none;
+    }
+    .left{
         display: none;
     }
     
