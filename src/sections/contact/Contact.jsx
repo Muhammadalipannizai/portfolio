@@ -8,9 +8,10 @@ import './contact.css';
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_fdpergj', 'template_zgvz678', form.current, 'ezQZPSWyjkvoT50qX')
+    emailjs.sendForm('service_rb9ligw', 'template_4jrqd0t', form.current, 'ezQZPSWyjkvoT50qX')
       .then((result) => {
           console.log(result.text);
+          form.current.reset();
       }, (error) => {
           console.log(error.text);
       });
