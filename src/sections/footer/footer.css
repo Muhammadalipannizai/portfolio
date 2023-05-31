@@ -29,3 +29,7 @@ footer .socials a:hover{
     transform: translateY(-0.5rem);
     background: var(--color-black);
 }
+footer .date{
+    text-align: center;
+    margin: 1rem 1rem;
+}
