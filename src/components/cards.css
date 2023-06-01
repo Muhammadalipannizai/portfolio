@@ -16,5 +16,5 @@
 }
 .card.light:hover {
         background : transparent;
-        border-color: var(--color-light);
+        border-color: var(--main-hover-color);
 }

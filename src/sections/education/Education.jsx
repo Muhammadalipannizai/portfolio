@@ -1,35 +1,48 @@
-import React from 'react'
-import './education.css';
-import edu from './edu';
-import Cards from '../../components/Cards';
+import React from "react";
+import "./education.css";
+import { edu, exp } from "./edu";
+import Cards from "../../components/Cards";
+
 function Education() {
   return (
-   <section id='education'>
-        <h2> Education</h2>
-    <div className='container education_container'>
-        {
-            edu.map((item,index) => (
-                <Cards  key={index}  className= 'education primary'>
-                <div className='edu_icon'> {item.icon}</div>
-                    <div className='univeristy'> <h4>{item.university}</h4>
-                    <p>{item.degree}</p>
-                   <small> {item.date}</small>
-                    </div>
-                </Cards>
-            ) )
-        }
-    </div>
-   
-    <div className='certification_container'>
-    <h3> Courses & Certifications</h3>
-        <div  className='certificate'>
-            <h4> The Complete 2023 Web Development Bootcamp</h4>
-            <a href='https://www.udemy.com/certificate/UC-c2b9a204-1367-4fb9-b748-9a42c5c92992/' className='btn black'> Udemy Certificate </a>
-     
+    <section id="education">
+      <h2>Qualification</h2>
+
+      <div className="qualification">
+        <div className="container experience_container">
+          <h3>Experience</h3>
+          {exp.map((item, index) => (
+            <Cards key={index} className="education">
+            <div className="exp_icon">
+                <img src={item.icon} alt="Experience Icon"></img>
+              </div>
+              <div className="university">
+                <h4>{item.company}</h4>
+                <p>{item.role}</p>
+                <p> Skills : {item.skills}</p>
+                <small>{item.date}</small>
+              </div>
+            </Cards>
+          ))}
         </div>
-    </div>
-   </section>
-  )
+        <div className="line"></div> {/* Add the line here */}
+
+        <div className="container education_container">
+          <h3>Education</h3>
+          {edu.map((item, index) => (
+            <Cards key={index} className="education">
+              <div className="edu_icon">{item.icon}</div>
+              <div className="university">
+                <h4>{item.university}</h4>
+                <p>{item.degree}</p>
+                <small>{item.date}</small>
+              </div>
+            </Cards>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Education
+export default Education;
