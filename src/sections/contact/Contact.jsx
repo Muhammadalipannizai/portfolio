@@ -1,8 +1,17 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
  const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -19,16 +28,16 @@ import './contact.css';
 
   return (
     <section id = 'contact'>
-     <h2> Let's Get In Touch </h2>
-    <div className='container contact_container'>
+     <h2 data-aos = 'zoom-in'> Let's Get In Touch </h2>
+    <div className='container contact_container' >
     <form ref={form} onSubmit={sendEmail}  className='primary'>
-    <label> <h5>Name</h5></label>
-      <input type="text" name="user_name"  placeholder=' full name'/>
-      <label><h5>Email</h5></label>
-      <input type="email" name="user_email"  placeholder='email'/>
-      <label><h5>Message</h5></label>
-      <textarea name="message" />
-      <button type="submit" value="Send" className='btn black' >Send</button>
+    <label data-aos = 'fade-left'> <h5>Name</h5></label>
+      <input type="text" name="user_name"  placeholder=' full name' data-aos = 'slide-right'/>
+      <label data-aos = 'fade-left'><h5>Email</h5></label>
+      <input type="email" name="user_email"  placeholder='email' data-aos = 'slide-right'/>
+      <label><h5 data-aos = 'fade-left'>Message</h5></label>
+      <textarea name="message"  data-aos = 'zoom-in'/>
+      <button type="submit" value="Send" className='btn black'  data-aos = 'slide-left'>Send</button>
     </form>
     </div>
     </section>

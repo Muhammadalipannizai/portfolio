@@ -2,15 +2,25 @@ import React from "react";
 import "./education.css";
 import { edu, exp } from "./edu";
 import Cards from "../../components/Cards";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 function Education() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
   return (
     <section id="education">
-      <h2>Qualification</h2>
+      <h2 data-aos = 'fade-down'>Qualification</h2>
 
       <div className="qualification">
-        <div className="container experience_container">
-          <h3>Experience</h3>
+        <div className="container experience_container"  data-aos = 'slide-right'>
+          <h3 data-aos = 'slide-right'>Experience</h3>
           {exp.map((item, index) => (
             <Cards key={index} className="education">
             <div className="exp_icon">
@@ -27,7 +37,7 @@ function Education() {
         </div>
         <div className="line"></div> {/* Add the line here */}
 
-        <div className="container education_container">
+        <div className="container education_container"  data-aos = 'slide-left'>
           <h3>Education</h3>
           {edu.map((item, index) => (
             <Cards key={index} className="education">

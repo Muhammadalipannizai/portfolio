@@ -1,4 +1,6 @@
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper";
 
@@ -13,6 +15,14 @@ import TestimonialsComponent from "./TestimonialsComponent";
 import './testimonials.css'
 
 function Testimonials() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
+
+
   return (
  
       <section id='testimonials'>
@@ -20,7 +30,7 @@ function Testimonials() {
      <p>
       These are unbiased testimonials from some of my clients
      </p>
-     <div className=" container ">
+     <div className=" container " data-aos = 'zoom-in'>
         <Swiper
               slidesPerView={1}
               spaceBetween={30}
