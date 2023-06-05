@@ -18,6 +18,7 @@
     align-items: flex-start ;
     gap: 1rem;
     margin-top: 4rem;
+    margin-left: 4rem;
 }
 .edu_icon{
     background: var(--main-hover-color);
@@ -77,7 +78,7 @@
     position: relative;
     margin-top: auto;
     align-items: center; 
-    left: 40%; /* Updated property */
+    left: 0%; /* Updated property */
     transform: translateX(-50%);
   
 }
@@ -99,7 +100,7 @@
   .education_container{
     display: flex;
     flex-direction: column;
-    left: 50%; /* Updated property */
+    left: 0%; /* Updated property */
     transform: translateX(-50%);
     
   
