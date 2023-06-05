@@ -1,7 +1,7 @@
 import React from "react";
 import Profile from "../../assets/web.jpg";
 import "./about.css";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/NewCV.pdf";
 import Cards from '../../components/Cards'; 
 import data from './data';
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
