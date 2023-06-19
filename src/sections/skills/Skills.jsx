@@ -17,9 +17,9 @@ function Skills() {
 
   return (
     <section id="skills">
-      <h2 data-aos = 'fade-down'> Technical skills</h2>
+      <h2 > Technical skills</h2>
       <div className="container skills_container">
-        <div className="frontend" data-aos = 'slide-right'>
+        <div className="frontend" >
           <RiReactjsLine className="icon_main" />
           <h4> Frontend Development</h4>
           <div className="skills_details">
@@ -68,7 +68,7 @@ function Skills() {
           </div>
         </div>
 
-        <div className="frontend" data-aos = 'slide-left'>
+        <div className="frontend">
           <FaNode className="icon_main" />
           <h4> Backend Development</h4>
           <div className="skills_details">

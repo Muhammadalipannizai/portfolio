@@ -17,8 +17,8 @@ function Header() {
   return (
      <header id='header'>
         <div className='container head_container'>
-              
-              <div className='Mydetail' data-aos = 'slide-right'> 
+        
+              <div className='Mydetail' > 
                   <h1> Muhammad Ali</h1>
                    <h4> Front-end Developer</h4>
                  <p> Hi, I am Ali. A passionate Front-end React Developer based in Oslo, Norway.
@@ -28,11 +28,11 @@ function Header() {
                      <a href='#portfolio' className='btn light'> My work</a>
                   </div>
               </div>
-              <div className='myphoto' data-aos = 'zoom-in'>
+              <div className='myphoto' >
                   <img src= {Profile} alt="headerphoto"/>
               </div>
-
-                <div className='head_social' data-aos = 'flip-right'>
+              
+                <div className='head_social'>
             
                   {data.map( items =>  <a  key={items.id } href={items.link} target = '_blank' rel='noopener noreferrer'> {items.icon}</a>)}
                   </div>

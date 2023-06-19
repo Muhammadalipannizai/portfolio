@@ -1,5 +1,8 @@
 import React from 'react'
-import Cards from '../../components/Cards'
+import Cards from '../../components/Cards';
+import './testimonials.css';
+
+
 function TestimonialsComponent(props) {
   return (
    <Cards className = 'light'>

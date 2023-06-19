@@ -1,6 +1,6 @@
 import React from 'react';
 import  './footer.css';
-import { socials} from './data'
+import { socials} from './data';
 function Footer() {
 
   const currentYear = new Date().getFullYear();

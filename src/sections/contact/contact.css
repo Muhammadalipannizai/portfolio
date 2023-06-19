@@ -1,20 +1,27 @@
 
+
+#contact h2 {
+   text-align: center;
+}
+
 .contact_container{
     display: flex;
 	justify-content: center;
+  align-items: center;
     margin-top: 3rem;
-    position: relative;
-    left: 20%;
+    padding: 2rem;
+  
 }
 form{
     display: flex;
-    /* align-items: flex-start; */
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     font-size: 16px;
+    padding: 2rem;
+
 }
 input{
-    width: 50%;
+    width: 100%;
     height: 40px;
     padding: 7px;
     outline: none;
@@ -26,9 +33,7 @@ input:hover{
     border-color: var(--main-hover-color);
   }
 textarea {
-    max-width: 100%;
-    min-width: 50%;
-    width: 50%;
+    width: 100%;
     max-height: 100px;
     min-height: 100px;
     padding: 7px;
@@ -51,34 +56,24 @@ textarea {
 @media screen and (max-width:600px) {
 
   .contact_container{
-    display: flex;
-	justify-content: center;
-    margin-top: 3rem;
-    position: relative;
-    left: 0%;
+   padding: 0;
+
   }
-  form textarea{
-    width: 100%;
-  }
-  input{
-    width: 100%;
-  }
+form{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
   
 }
 @media screen and (max-width:1024px) {
 
-
   .contact_container{
-    display: flex;
-	justify-content: center;
-    margin-top: 3rem;
-    position: relative;
-    left: 10%;
+    padding: 0;
   }
-  form textarea{
-    width: 80%;
-  }
-  input{
-    width: 80%;
-  }
+form{
+  width: 80%;
+}
+  
 }

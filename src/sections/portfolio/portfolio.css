@@ -1,8 +1,13 @@
+#portfolio{
+    text-align: center;
+}
+
 .portfolio_categories{
     display: flex;
     justify-content: center;
     gap: 1.5rem;
     flex-wrap: wrap;
+    padding: 0;
 }
 .btn.cat_btn{
      text-transform: capitalize;
@@ -11,15 +16,13 @@
 .btn.cat_btn:hover{
     transform: translateY(0);
 }
-
-
-
 .project_Card{
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: start;
     gap: 3rem;
+    padding: 0 4rem;
     
 }
 .project_cards{
@@ -35,9 +38,6 @@
     }
     
 }
-
-
-
 .image_project{
     width: 100%;
     height: fit-content;
@@ -75,8 +75,14 @@
     .portfolio_categories{
         gap: 0.6rem;
     }
+  .para{
+        width: 100%;
+        padding: 0 1rem;
+    }
     .project_Card{
         grid-template-columns: 1fr;
+        padding: 0 1rem;
+
     }
     .project_buttons{
         padding: 0.7rem 0.8rem;

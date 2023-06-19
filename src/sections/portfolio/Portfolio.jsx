@@ -32,11 +32,11 @@ setProject(filterCatAll);
   return (
    
     <section id='portfolio'>
-     <h2 data-aos="zoom-in">Portfolio</h2>
-     <p data-aos="slide-left"> Check out some of the projects I recently worked on.</p>
+     <h2>Portfolio</h2>
+     <p className='para'> Check out some of the projects I recently worked on.</p>
       <div className='container portfolio_container'>
       <Categories all_categories = {categoryUnique } filterProject ={filterProjects}/>
-      <div className='project_Card' data-aos="flip-down">
+      <div className='project_Card'>
       {project.map((items,index)=>(
          <Projects key={index} id={index}  project_main = {items} />  )) }</div>
   

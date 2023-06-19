@@ -2,6 +2,14 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  padding: 2rem;
+}
+#skills{
+  text-align: center;
+  padding: 7rem;
+  margin: 0;
+  margin-top: 0;
+
 }
 .skills_container > div {
   background-color: var(--color-white);
@@ -30,6 +38,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  column-gap: 3rem;
 }
 .skills_content {
   display: flex;
@@ -43,7 +52,6 @@
   font-size: 3rem;
   position: relative;
   top: 0;
-  left: 50%;
   transform: translateX(-50%);
   color: var(--main-hover-color);
   padding-bottom: 1rem;
@@ -55,25 +63,50 @@ h2 {
 @media screen and (max-width: 1024px) {
     .skills_container{
         grid-template-columns: 1fr;
+        gap: 2rem;
+        align-content: center;
+    
     }
     .skills_container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
+        width: 100%;
+        padding: 1rem 0;
+        margin: 0;
+        align-content: center;
     }
     .skills_details{
-        padding: 1rem;
+        padding: 1rem 4rem;
+        padding-right: 0;
+        column-gap: 3rem;
+        align-content: center;
     }
     
 }
 
 @media screen and (max-width: 600px) {
-    .skills_container{
-        gap: 1.2rem;
+  .skills_container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-content: center;
+ 
+    padding: 1rem;
+  }
 
-    }
-    .skills_container > div{
-        width: 100%;
-        padding: 2rem 1rem;
-    }
+  .skills_container > div {
+    width: 100%;
+    padding: 0;
+    margin:  0.1rem 0;
+   
+  }
+
+  .skills_details {
+    padding: 1rem;
+    column-gap: 3rem;
+    align-content: center;
+  }
+  #skills{
+    padding: 0;
+    margin: 5rem 0;
+    
+  }
 }
+

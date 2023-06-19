@@ -30,7 +30,7 @@ function Testimonials() {
      <p>
       These are unbiased testimonials from some of my clients
      </p>
-     <div className=" container " data-aos = 'zoom-in'>
+     <div className=" container test_container">
         <Swiper
               slidesPerView={1}
               spaceBetween={30}

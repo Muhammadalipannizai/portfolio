@@ -19,7 +19,7 @@ const clickButton = (activeCat) =>{
     props.filterProject(activeCat);
 }
   return (
-    <div className='portfolio_categories' data-aos="flip-up">
+    <div className='portfolio_categories' >
       {
         props.all_categories.map((category,index) => (
           <ButtonCategory

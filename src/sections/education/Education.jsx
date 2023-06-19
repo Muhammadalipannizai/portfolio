@@ -16,13 +16,13 @@ function Education() {
 
   return (
     <section id="education">
-      <h2 data-aos = 'fade-down'>Qualification</h2>
+      <h2>Qualification</h2>
 
       <div className="qualification">
-        <div className="container experience_container"  data-aos = 'slide-right'>
-          <h3 data-aos = 'slide-right'>Experience</h3>
+        <div className="container experience_container" >
+          <h3>Experience</h3>
           {exp.map((item, index) => (
-            <Cards key={index} className="education">
+            <Cards key={index} className="experience">
             <div className="exp_icon">
                 <img src={item.icon} alt="Experience Icon"></img>
               </div>
@@ -37,7 +37,7 @@ function Education() {
         </div>
         <div className="line"></div> {/* Add the line here */}
 
-        <div className="container education_container"  data-aos = 'slide-left'>
+        <div className="container education_container">
           <h3>Education</h3>
           {edu.map((item, index) => (
             <Cards key={index} className="education">

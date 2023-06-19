@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./navbar.css";
 import data from "./data";
-import  Logo from '../../assets/ali-logo.png'
+import  Logo from '../../assets/ali-logo.png';
 
 function NavBar() {
-  const [activeItem, setActiveItem] = useState("#");
+  const [activeItem, setActiveItem] = useState('#header');
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Function to toggle the menu dropdown
@@ -26,8 +26,8 @@ function NavBar() {
         </div>
 
         <ul className={`nav_menu ${menuOpen ? "open" : ""}`}>
-          {data.map((item) => (
-            <li key={item.id}>
+          {data.map((item, index) => (
+            <li key={index}>
               <a
                 href={item.link}
                 className={activeItem === item.link ? "active" : ""}
@@ -40,10 +40,11 @@ function NavBar() {
         </ul>
 
       </div>
-     
+
       </div>
     </nav>
   );
 }
 
 export default NavBar;
+
