@@ -5,27 +5,19 @@ import CV from "../../assets/NewCV.pdf";
 import Cards from '../../components/Cards'; 
 import data from './data';
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
+
 
 function About() {
 
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-    });
-  }, []);
-  
   return (
     <section id="about">
-      <div className="container about_container">
+      <div className="container about_container" >
       <div className="about_left">
-          <div className="image_about">
+          <div className="image_about" >
             <img src={Profile} alt="aboutMe"></img>
           </div>
         </div>
-        <div className="about_right" >
+        <div className="about_right"  >
           <h2 > About me </h2>
           <div className='about_cards' >
             { data.map( (item, index) => (
@@ -37,7 +29,7 @@ function About() {
             )
             )}
           </div>
-          <div className="about_cards"></div>
+          <div className="about_cards" ></div>
           <p >
             Hi, I'm Muhammad Ali, a junior frontend React developer passionate
             about creating engaging and user-friendly web experiences. With a

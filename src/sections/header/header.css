@@ -147,12 +147,13 @@
     
     .head_container 
     {
+        display: flex;
         padding-top: 4rem;
         padding-bottom: 0;
         margin: 0;
-        padding-left: 1rem;
         width: 100%;
         justify-content: center;
+
     }
     .Mydetail{
         width: 100%;

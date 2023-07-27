@@ -3,17 +3,8 @@ import "./skills.css";
 import { BsPatchCheckFill } from "react-icons/bs";
 import { RiReactjsLine } from "react-icons/ri";
 import { FaNode } from "react-icons/fa";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from "react";
 
 function Skills() {
-
-  useEffect(() => {
-    AOS.init({
-      duration: 2000,
-    });
-  }, []);
 
   return (
     <section id="skills">
@@ -61,7 +52,7 @@ function Skills() {
             <article className="skills_content">
               <BsPatchCheckFill className="icon" />
               <div>
-                <h5>Material UI</h5>
+                <h5>Styled-Components</h5>
                 <small className="level">Intermediate</small>
               </div>
             </article>

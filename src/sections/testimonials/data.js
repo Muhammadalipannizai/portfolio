@@ -17,7 +17,7 @@ const data = [
         },
         {
         id: 2,
-        quote: "Good job, Hajia! Right on time! I really like how the project turned out, and my customers like it as well. It was fun collaborating with you.",
+        quote: "Good job, Ali! Right on time! I really like how the project turned out, and my customers like it as well. It was fun collaborating with you.",
         avatar: Avatar2,
         name: 'Ernest Achiever',
         profession: 'Web Developer'
@@ -38,7 +38,7 @@ const data = [
         },
         {
         id: 5,
-        quote: "I like how the app turned out. You are incredible, Hajia.",
+        quote: "I like how the app turned out. You are incredible, Ali.",
         avatar: Avatar5,
         name: 'Vivian Mensah',
         profession: 'Street Photographer'

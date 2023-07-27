@@ -17,9 +17,10 @@ function App() {
     <NavBar/>
     <Header/>
     <About/>
-    <Skills/>
+    
     {/* <Services/> */}
     <Portfolio/>
+    <Skills/>
     <Education/>
     <Testimonials/>
     
